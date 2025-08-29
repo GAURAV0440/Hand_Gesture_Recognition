@@ -22,6 +22,10 @@ This project is a real-time Python application that detects static hand gestures
   - 👍 Thumbs Up
 - Displays the gesture name on the screen
 
+## How the Gesture Logic Works
+- MediaPipe extracts 21 landmarks per hand, each with (x, y, z) coordinates.
+- These 63 values are passed to a pre-trained SVM model.
+- The model predicts one of the 4 gestures based on this input.
 
 ## Technology Used
 
