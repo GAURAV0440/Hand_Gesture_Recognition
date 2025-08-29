@@ -54,15 +54,14 @@ pip install -r requirements.txt
 
 # 2. Collect Gesture Samples
 
-# Run "python3 collect_data.py"
-
-# Enter gesture label like "fist" or "palm"
-# Press 's' to save a sample, 'q' to quit
+Run "python3 collect_data.py"
+Enter gesture label like "fist" or "palm"
+Press 's' to save a sample, 'q' to quit
 
 Repeat this for all 4 gestures.
 
 # 3. Train the Model
-# Run "python3 train_model.py"
+Run "python3 train_model.py"
 
 This creates:
 
@@ -71,7 +70,7 @@ gesture_model.pkl (SVM model)
 label_encoder.pkl (label decoder)
 
 # 4. Run Real-Time Gesture App
-# Run "python3 main.py"
+Run "python3 main.py"
 
 ## Project Structure
 
