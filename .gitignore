@@ -1,0 +1,15 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Model and dataset artifacts (optional)
+gesture_model.pkl
+label_encoder.pkl
+data/gesture_data.csv
+
+# OS files
+.DS_Store
+Thumbs.db
