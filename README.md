@@ -84,3 +84,4 @@ hand_gesture_project/
 │   └── gesture_data.csv
 ├── requirements.txt
 ├── README.md
+<img width="213" height="222" alt="image" src="https://github.com/user-attachments/assets/872ff682-3c94-4081-b167-0c25e34b0fe6" />
